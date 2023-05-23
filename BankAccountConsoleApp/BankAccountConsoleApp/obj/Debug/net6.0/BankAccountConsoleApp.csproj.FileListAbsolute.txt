@@ -1,0 +1,15 @@
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\bin\Debug\net6.0\BankAccountConsoleApp.exe
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\bin\Debug\net6.0\BankAccountConsoleApp.deps.json
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\bin\Debug\net6.0\BankAccountConsoleApp.runtimeconfig.json
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\bin\Debug\net6.0\BankAccountConsoleApp.dll
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\bin\Debug\net6.0\BankAccountConsoleApp.pdb
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\obj\Debug\net6.0\BankAccountConsoleApp.csproj.AssemblyReference.cache
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\obj\Debug\net6.0\BankAccountConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\obj\Debug\net6.0\BankAccountConsoleApp.AssemblyInfoInputs.cache
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\obj\Debug\net6.0\BankAccountConsoleApp.AssemblyInfo.cs
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\obj\Debug\net6.0\BankAccountConsoleApp.csproj.CoreCompileInputs.cache
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\obj\Debug\net6.0\BankAccountConsoleApp.dll
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\obj\Debug\net6.0\refint\BankAccountConsoleApp.dll
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\obj\Debug\net6.0\BankAccountConsoleApp.pdb
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\obj\Debug\net6.0\BankAccountConsoleApp.genruntimeconfig.cache
+D:\DESKTOP-Permanent\RTC\2023-4-Spring\Programming4\Lab1\Prog4_Lab1_BankAccountApp\BankAccountConsoleApp\BankAccountConsoleApp\obj\Debug\net6.0\ref\BankAccountConsoleApp.dll
