@@ -19,12 +19,12 @@ namespace BankAccountConsoleApp
 
 
         // Methods
-        protected override void Deposit(double amount)
+        public override void Deposit(double amount)
         {
             if (amount > 0) //Validate that argument isn't negative
             {
                 Balance = Balance + amount; //Add amount to Balance
-                Console.WriteLine("CheckingAccount Deposit Successful!"); // WPF app version: MessageBox.Show("True!");
+                //Console.WriteLine("CheckingAccount Deposit Successful!"); // WPF app version: MessageBox.Show("True!");
             }
             else
             {
@@ -32,7 +32,7 @@ namespace BankAccountConsoleApp
             }
         } // Override (Method Modifier)
 
-        protected override bool Withdraw(double amount)
+        public override bool Withdraw(double amount)
         {
             if (amount > 0 || amount < Balance) 
             {

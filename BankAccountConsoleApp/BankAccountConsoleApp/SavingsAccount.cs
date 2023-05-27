@@ -26,7 +26,7 @@ namespace BankAccountConsoleApp
 
 
         // Methods
-        protected override void Deposit(double amount)
+        public override void Deposit(double amount)
         {
             if (amount > 0) //Validate that argument isn't negative
             {
@@ -40,7 +40,9 @@ namespace BankAccountConsoleApp
 
         } // Override (Method Modifier)
 
-        protected override bool Withdraw(double amount)
+        
+
+        public override bool Withdraw(double amount)
         {
             if (amount > 0 && amount < Balance)
             {

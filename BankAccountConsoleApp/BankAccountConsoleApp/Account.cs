@@ -24,8 +24,8 @@ namespace BankAccountConsoleApp
 
         // Methods
         //protected abstract string Name { get; }
-        protected abstract void Deposit(double amount);
-        protected abstract bool Withdraw(double amount);
+        public abstract void Deposit(double amount);
+        public abstract bool Withdraw(double amount);
 
 
 

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace BankAccountTest
 {
     [TestClass()]
-    public class SavingsAccount_Deposit_Test
+    public class SavingsAccount_Withdraw_Test
     {
         SavingsAccount _savingsAccount;
 
@@ -17,24 +17,24 @@ namespace BankAccountTest
 
 
 
-        public SavingsAccount_Deposit_Test()
+        public SavingsAccount_Withdraw_Test()
         {
             _savingsAccount = new SavingsAccount(testBalance); // Initialized a new instance of the class we are testing and gave it a test value for SavingsAccount(double balance) : base(balance)
         }
 
 
-        // Testing Method 1 SavingsAccount_Deposit_Test
+        // Testing Method 2 SavingsAccount_Deposit_Test
         [TestMethod()]
-        public void SavingsDeposit_Is_True_Test()
+        public void SavingsWithdraw_Is_True_Test()
         {
 
             // Arrange
             double initialBalance = _savingsAccount.Balance;
-            double addedAmount = 5;
-            double expectedBalance = 40;
+            double subtractedAmount = 5;
+            double expectedBalance = 30;
 
             // Act
-            _savingsAccount.Deposit(addedAmount);
+            _savingsAccount.Withdraw(subtractedAmount);
 
             double actualBalance = _savingsAccount.Balance;
 
@@ -43,15 +43,15 @@ namespace BankAccountTest
 
         }
 
-        // Testing Method 1 SavingsAccount_Deposit_Test
+        // Testing Method 2 SavingsAccount_Deposit_Test
         [TestMethod()]
-        public void SavingsDeposit_Is_False_Test()
+        public void SavingsWithdraw_Is_False_Test()
         {
 
             // Arrange
             double initialBalance = _savingsAccount.Balance;
-            double addedAmount = 7;
-            double expectedBalance = 40;
+            double addedAmount = 5;
+            double expectedBalance = 21;
 
             // Act
             _savingsAccount.Deposit(addedAmount);
