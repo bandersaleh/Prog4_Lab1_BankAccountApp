@@ -34,7 +34,7 @@ namespace BankAccountConsoleApp
 
         public override bool Withdraw(double amount)
         {
-            if (amount > 0 || amount < Balance) 
+            if (amount > 0 && amount < Balance) 
             {
                 Balance = Balance - amount;
                 return true;
