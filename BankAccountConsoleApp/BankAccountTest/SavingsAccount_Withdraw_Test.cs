@@ -11,15 +11,15 @@ namespace BankAccountTest
     [TestClass()]
     public class SavingsAccount_Withdraw_Test
     {
-        SavingsAccount _savingsAccount2;
+        SavingsAccount _savingsAccount;
 
-        double testBalance2 = 35;
+        double testBalance = 35;
 
 
 
         public SavingsAccount_Withdraw_Test()
         {
-            _savingsAccount2 = new SavingsAccount(testBalance2); // Initialized a new instance of the class we are testing and gave it a test value for SavingsAccount(double balance) : base(balance)
+            _savingsAccount = new SavingsAccount(testBalance); // Initialized a new instance of the class we are testing and gave it a test value for SavingsAccount(double balance) : base(balance)
         }
 
 
@@ -29,17 +29,17 @@ namespace BankAccountTest
         {
 
             // Arrange
-            double initialBalance3 = _savingsAccount2.Balance;
-            double subtractedAmount3 = 5;
-            double expectedBalance3 = 30;
+            double initialBalance = _savingsAccount.Balance;
+            double subtractedAmount = 5;
+            double expectedBalance = 30;
 
             // Act
-            _savingsAccount2.Withdraw(subtractedAmount3);
+            _savingsAccount.Withdraw(subtractedAmount);
 
-            double actualBalance3 = _savingsAccount2.Balance;
+            double actualBalance = _savingsAccount.Balance;
 
             // Assert
-            Assert.AreEqual(expectedBalance3, actualBalance3);
+            Assert.AreEqual(expectedBalance, actualBalance);
 
         }
 
@@ -49,17 +49,17 @@ namespace BankAccountTest
         {
 
             // Arrange
-            double initialBalance4 = _savingsAccount2.Balance;
-            double addedAmount4 = 5;
-            double expectedBalance4 = 21;
+            double initialBalance = _savingsAccount.Balance;
+            double addedAmount = 5;
+            double expectedBalance = 21;
 
             // Act
-            _savingsAccount2.Deposit(addedAmount4);
+            _savingsAccount.Deposit(addedAmount);
 
-            double actualBalance4 = _savingsAccount2.Balance;
+            double actualBalance = _savingsAccount.Balance;
 
             // Assert
-            Assert.AreNotEqual(expectedBalance4, actualBalance4);
+            Assert.AreNotEqual(expectedBalance, actualBalance);
 
         }
 

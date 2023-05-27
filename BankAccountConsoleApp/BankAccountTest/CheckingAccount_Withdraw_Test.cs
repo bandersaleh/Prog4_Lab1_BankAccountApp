@@ -11,55 +11,55 @@ namespace BankAccountTest
     [TestClass()]
     public class CheckingAccount_Withdraw_Test
     {
-        CheckingAccount _checkingAccount2;
+        CheckingAccount _checkingAccount;
 
-        double testBalance4 = 35;
+        double testBalance = 35;
 
 
 
         public CheckingAccount_Withdraw_Test()
         {
-            _checkingAccount2 = new CheckingAccount(testBalance4); // Initialized a new instance of the class we are testing and gave it a test value for SavingsAccount(double balance) : base(balance)
+            _checkingAccount = new CheckingAccount(testBalance); // Initialized a new instance of the class we are testing and gave it a test value for SavingsAccount(double balance) : base(balance)
         }
 
 
-        // Testing Method 3 SavingsAccount_Deposit_Test
+        // Testing Method 4 SavingsAccount_Deposit_Test
         [TestMethod()]
         public void CheckingWithdraw_Is_True_Test()
         {
 
             // Arrange
-            double initialBalance7 = _checkingAccount2.Balance;
-            double subtractedAmount7 = 5;
-            double expectedBalance7 = 30;
+            double initialBalance = _checkingAccount.Balance;
+            double subtractedAmount = 5;
+            double expectedBalance = 30;
 
             // Act
-            _checkingAccount2.Withdraw(subtractedAmount7);
+            _checkingAccount.Withdraw(subtractedAmount);
 
-            double actualBalance7 = _checkingAccount2.Balance;
+            double actualBalance = _checkingAccount.Balance;
 
             // Assert
-            Assert.AreEqual(expectedBalance7, actualBalance7);
+            Assert.AreEqual(expectedBalance, actualBalance);
 
         }
 
-        // Testing Method 3 SavingsAccount_Deposit_Test
+        // Testing Method 4 SavingsAccount_Deposit_Test
         [TestMethod()]
         public void CheckingWithdraw_Is_False_Test()
         {
 
             // Arrange
-            double initialBalance8 = _checkingAccount2.Balance;
-            double subtractedAmount8 = 0;
-            double expectedBalance8 = 10;
+            double initialBalance = _checkingAccount.Balance;
+            double subtractedAmount = 0;
+            double expectedBalance = 10;
 
             // Act
-            _checkingAccount2.Withdraw(subtractedAmount8);
+            _checkingAccount.Withdraw(subtractedAmount);
 
-            double actualBalance8 = _checkingAccount2.Balance;
+            double actualBalance = _checkingAccount.Balance;
 
             // Assert
-            Assert.AreEqual(expectedBalance8, actualBalance8);
+            Assert.AreEqual(expectedBalance, actualBalance);
 
         }
 
