@@ -4,6 +4,7 @@ namespace BankAccountTest
     public class UnitTest1
     {
         // Data Attributes
+
         [TestMethod]
         public void TestMethod1()
         {
@@ -18,10 +19,8 @@ namespace BankAccountTest
             // Assert
             // Assert expected outcomes.Act steps should elicit some sort of response. Assert steps verify the goodness or badness of that response. Sometimes, assertions are as simple as checking numeric or string values. Other times, they may require checking multiple facets of a system. Assertions will ultimately determine if the test passes or fails.
 
-
-            //Assert.IsTrue(false, "The method was false"); // Our 1st Test
-            Assert.IsTrue(true); // Our 2nd Test
-
+            Assert.IsTrue(true); // Our 1st Test (UnitTesting)
+            //Assert.IsFalse(false, "The method was false"); // Our 2nd Test (UnitTesting)
 
         } // Method - Initial/Default Test Method
 

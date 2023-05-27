@@ -8,10 +8,21 @@ namespace BankAccountConsoleApp
 {
     public class SavingsAccount : Account // Child class that inherits from Account
     {
+        // Field
+        //double _amount; // Temporary value to test the app's functionality
+
+
         // Constructor
         public SavingsAccount(double balance) : base(balance)
         {
         }
+
+
+
+
+        // Properties
+        //public double amount { get => _amount; set => _amount = value; }
+
 
 
         // Methods
@@ -31,7 +42,7 @@ namespace BankAccountConsoleApp
 
         protected override bool Withdraw(double amount)
         {
-            if (amount > 0 || amount < Balance)
+            if (amount > 0 && amount < Balance)
             {
                 Balance = Balance - amount;
                 return true;

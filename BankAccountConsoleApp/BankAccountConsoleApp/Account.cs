@@ -13,7 +13,7 @@ namespace BankAccountConsoleApp
         double _balance;
 
         // Constructor
-        protected Account(double balance)
+        public Account(double balance)
         {
             _balance = balance;
         }
